@@ -86,8 +86,9 @@ if __name__ == "__main__":
 
 """
 > sequenital
-
-
+Processing number combinations sequentially
+PASSWORD CRACKED: 87654321
+PROCESS TIME: 58.04541270899972
 
 > parallel
 Processing number combinations in parallel with 8 core
