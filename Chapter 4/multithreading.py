@@ -14,6 +14,7 @@ def cpu_waster(i: int) -> None:
     name = threading.current_thread().name #getName() deprecated
     print(f"{name} doing {i} work")
     time.sleep(3)
+    print(f"[DEBUG] {i} thread ended")
 
 
 def display_threads() -> None:
